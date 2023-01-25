@@ -22,3 +22,53 @@
     height: 100px;
     width: 100px;
 }
+/* .container{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin: 1rem;
+} */
+.c-row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.main-text{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.last-txt{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+} 
+
+.card{
+  min-width: 33%;
+  width: 100%;
+  height: 400px;
+}
+
+.fetures{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.focus-title{
+    position:absolute;
+    top: -10px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+}
+.mid{
+    position: absolute;
+    top: -1rem;
+    right: 35%;
+    margin: auto;
+}
