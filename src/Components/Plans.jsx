@@ -3,8 +3,8 @@ import React from "react";
 export const Plans = () => {
   return (
     <div>
-      <div className="main-text">
-        <h1>Pick a base plan:</h1>
+      <div className="main-text mt-5 ">
+        <h1 className="fw-bold">Pick a base plan:</h1>
       </div>
 
       <div className="container c-row">
@@ -20,7 +20,9 @@ export const Plans = () => {
           <div className="text-secondary">$12.55/mo</div>
 
           <div>
+            <div className="line"></div>
             <p className="text-secondary">KEY FEATURES</p>
+            <div className="line"></div>
           </div>
 
           <div className="fetures text-secondary">
@@ -100,8 +102,8 @@ export const Plans = () => {
         </div>
       </div>
       <div className="plans">
-        <div>
-          <button className="btn btn-primary rounded-pill px-4 mt-3">
+        <div >
+          <button className="btn btn-primary rounded-pill px-4 mt-3 ">
             Choose Plan
           </button>
         </div>

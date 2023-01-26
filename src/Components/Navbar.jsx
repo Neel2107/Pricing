@@ -2,22 +2,21 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <div>
-      
-      <nav class="navbar navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="/rev.svg" className="rev-logo" alt="" />
-            <a href="#" className="restart">
-              Restart
-            </a>
-            <img src="/logo.png" className="main-logo" alt="" />
-          </a>
-
-          <img src="./phn.svg" className="phone-logo" alt="" />
-          <img src="./msg.png" className="message-logo" alt="" />
+      <div class="navbar ">
+        <div className="">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="/rev.svg" className="rev-logo" alt="" />
+          <p className="restart text-secondary  ">Restart</p>
+        </a>
         </div>
-      </nav>
-    </div>
+        {/* <div className=""> */}
+          <img src="/jetty.png" className="jetty-logo" alt="" />
+        {/* </div> */}
+        <div className="lil">
+          <img src="./phn.svg" className="phone-logo me-5 " alt="" />
+          <img src="./msg.png" className="message-logo me-5" alt="" />
+        </div>
+      </div>
+    
   );
 };

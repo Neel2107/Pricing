@@ -3,24 +3,29 @@
     width: 50px;
 }
 
-.main-logo{
+.jetty-logo{
     height: 50px;
     width: 100px;
+    object-fit: contain;
 }
 
+.lil{
+    width: max-content;
+}
 .restart{
     color: black;
     font-weight: bolder;
     text-decoration: none;
+    margin: 0;
 }
 
 .phone-logo{
-    height: 50px;
-    width: 100px;
+    height: 30px;
+    max-width: 30px;
 }
 .message-logo{
-    height: 100px;
-    width: 100px;
+    height: 30px;
+   max-width: 30px;
 }
 /* .container{
     width: 100%;
@@ -71,4 +76,9 @@
     top: -1rem;
     right: 35%;
     margin: auto;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    border: 1px;
 }
