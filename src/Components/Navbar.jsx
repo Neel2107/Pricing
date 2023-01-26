@@ -4,9 +4,9 @@ export const Navbar = () => {
   return (
       <div class="navbar ">
         <div className="">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="/rev.svg" className="rev-logo" alt="" />
-          <p className="restart text-secondary  ">Restart</p>
+        <a class="navbar-brand d-flex align-items-center " href="#">
+          <img  src="/rev.svg" className="rev-logo ms-3" alt="" />
+          <p className="restart fs-4">Restart</p>
         </a>
         </div>
         {/* <div className=""> */}

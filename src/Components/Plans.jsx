@@ -19,7 +19,7 @@ export const Plans = () => {
 
           <div className="text-secondary">$12.55/mo</div>
 
-          <div>
+          <div className="d-flex justify-content-center  align-items-center ">
             <div className="line"></div>
             <p className="text-secondary">KEY FEATURES</p>
             <div className="line"></div>
@@ -55,21 +55,23 @@ export const Plans = () => {
 
           <div>$18.55/mo</div>
 
-          <div>
-            <p>KEY FEATURES</p>
+          <div className="d-flex justify-content-center  align-items-center ">
+            <div className="line"></div>
+            <p className="text-secondary">KEY FEATURES</p>
+            <div className="line"></div>
           </div>
 
           <div className="fetures">
-            <p>Everyday Belongings</p>
-            <p>$20,000</p>
+            <p className="texts">Everyday Belongings</p>
+            <p className="prices">$20,000</p>
           </div>
           <div className="fetures">
-            <p>Portable Electronics</p>
-            <p>$1,000</p>
+            <p className="texts">Portable Electronics</p>
+            <p className="prices">$1,000</p>
           </div>
           <div className="fetures">
-            <p>Personal Liability</p>
-            <p>$200,000</p>
+            <p className="texts">Personal Liability</p>
+            <p className="prices">$200,000</p>
           </div>
         </div>
         <div className="card text-center p-3">
@@ -82,13 +84,14 @@ export const Plans = () => {
           </div>
 
           <div className="text-secondary">$33.55/mo</div>
-
-          <div>
+          <div className="d-flex justify-content-center  align-items-center ">
+            <div className="line"></div>
             <p className="text-secondary">KEY FEATURES</p>
+            <div className="line"></div>
           </div>
 
           <div className="fetures text-secondary">
-            <p>Everyday Belongings</p>
+            <p  className="">Everyday Belongings</p>
             <p>$40,000</p>
           </div>
           <div className="fetures text-secondary">

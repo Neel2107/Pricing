@@ -80,5 +80,16 @@
 .line{
     height: 1px;
     width: 100%;
-    border: 1px;
+    background-color: black;
+}
+.text-secondary{
+    width: 100%;
+    margin: 0;
+}
+
+.texts{
+    color: #6c757d;
+}
+.prices{
+    font-weight: bold;
 }
