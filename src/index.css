@@ -1,32 +1,40 @@
-.rev-logo{
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rev-logo {
     height: 50px;
     width: 50px;
 }
 
-.jetty-logo{
+.jetty-logo {
     height: 50px;
     width: 100px;
     object-fit: contain;
 }
 
-.lil{
+.lil {
     width: max-content;
 }
-.restart{
+
+.restart {
     color: black;
     font-weight: bolder;
     text-decoration: none;
     margin: 0;
 }
 
-.phone-logo{
+.phone-logo {
     height: 30px;
     max-width: 30px;
 }
-.message-logo{
+
+.message-logo {
     height: 30px;
-   max-width: 30px;
+    max-width: 30px;
 }
+
 /* .container{
     width: 100%;
     display: flex;
@@ -34,62 +42,69 @@
     justify-content: center;
     margin: 1rem;
 } */
-.c-row{
+.c-row {
     display: flex;
     flex-direction: row;
     padding-top: 100px;
 }
 
-.main-text{
+.main-text {
     width: 100%;
     display: flex;
     justify-items: center;
     justify-content: center;
 }
-.last-txt{
+
+.last-txt {
     display: flex;
     justify-items: center;
     justify-content: center;
-} 
-
-.card{
-  min-width: 33%;
-  width: 100%;
-  height: 400px;
 }
 
-.fetures{
+.card {
+    min-width: 33%;
+    width: 100%;
+    height: 400px;
+}
+
+.fetures {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.focus-title{
-    position:absolute;
+
+.focus-title {
+    position: absolute;
     top: -10px;
 }
-.plans{
+
+.plans {
     display: flex;
     justify-content: center;
 }
-.mid{
+
+.mid {
     position: absolute;
     top: -1rem;
     right: 35%;
     margin: auto;
 }
-.line{
+
+.line {
     height: 1px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(151, 151, 151);
 }
-.text-secondary{
+
+.text-secondary {
     width: 100%;
     margin: 0;
 }
 
-.texts{
+.texts {
     color: #6c757d;
 }
-.prices{
+
+.prices {
     font-weight: bold;
 }

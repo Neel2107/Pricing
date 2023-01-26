@@ -14,10 +14,17 @@ export const Plans = () => {
           </div>
 
           <div>
-            <p className="fw-bold text-secondary">A no-frills plan to meet most landlords' requirements.</p>
+            <p className=" text-secondary">
+              A no-frills plan to meet most landlords' requirements.
+            </p>
           </div>
 
-          <div className="text-secondary">$12.55/mo</div>
+          <div className=" d-flex justify-content-center ">
+            <span className="text-secondary   ps-5">$</span>
+            <span className="fs-1 fw-bold text-secondary">12</span>
+            <span className="text-secondary">55</span>
+            <span className="text-secondary pe-5">/mo</span>
+          </div>
 
           <div className="d-flex justify-content-center  align-items-center ">
             <div className="line"></div>
@@ -38,22 +45,24 @@ export const Plans = () => {
             <p>$100,000</p>
           </div>
         </div>
-      
-          
-        <div className="card text-center p-3 shadow p-3 bg-body rounded mx-2 ">
-        <span className="mid btn-primary btn-sm color-git">
-            MOST POPULAR
-          </span>
+
+        <div className="card text-center shadow p-3 bg-body rounded mx-2 ">
+          <span className="mid btn-primary btn-sm color-git">MOST POPULAR</span>
 
           <div>
             <h1 className="text-primary fw-bold">Essential</h1>
           </div>
 
           <div>
-            <p className="fw-bold">Our top-seller for"the average renter."</p>
+            <p className="">Our top-seller for"the average renter."</p>
           </div>
 
-          <div>$18.55/mo</div>
+          <div className=" d-flex justify-content-center ">
+            <span className="text-secondary   ps-5">$</span>
+            <span className="fs-1 fw-bold text-secondary">18</span>
+            <span className="text-secondary">55</span>
+            <span className="text-secondary pe-5">/mo</span>
+          </div>
 
           <div className="d-flex justify-content-center  align-items-center ">
             <div className="line"></div>
@@ -80,10 +89,17 @@ export const Plans = () => {
           </div>
 
           <div>
-            <p className="fw-bold text-secondary">The perfect plan for those with a few extra belongings.</p>
+            <p className=" text-secondary">
+              The perfect plan for those with a few extra belongings.
+            </p>
           </div>
 
-          <div className="text-secondary">$33.55/mo</div>
+          <div className=" d-flex justify-content-center ">
+            <span className="text-secondary   ps-5">$</span>
+            <span className="fs-1 fw-bold text-secondary">33</span>
+            <span className="text-secondary">55</span>
+            <span className="text-secondary pe-5">/mo</span>
+          </div>
           <div className="d-flex justify-content-center  align-items-center ">
             <div className="line"></div>
             <p className="text-secondary">KEY FEATURES</p>
@@ -91,7 +107,7 @@ export const Plans = () => {
           </div>
 
           <div className="fetures text-secondary">
-            <p  className="">Everyday Belongings</p>
+            <p className="">Everyday Belongings</p>
             <p>$40,000</p>
           </div>
           <div className="fetures text-secondary">
@@ -105,7 +121,7 @@ export const Plans = () => {
         </div>
       </div>
       <div className="plans">
-        <div >
+        <div>
           <button className="btn btn-primary rounded-pill px-4 mt-3 ">
             Choose Plan
           </button>
