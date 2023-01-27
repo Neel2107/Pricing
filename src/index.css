@@ -108,3 +108,8 @@
 .prices {
     font-weight: bold;
 }
+
+.price{
+    width:fit-content;
+    /* width: 100%; */
+}

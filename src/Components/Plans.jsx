@@ -19,11 +19,11 @@ export const Plans = () => {
             </p>
           </div>
 
-          <div className=" d-flex justify-content-center ">
-            <span className="text-secondary   ps-5">$</span>
+          <div className=" d-flex price justify-content-center ">
+            <span className="text-secondary mt-2  ps-5">$</span>
             <span className="fs-1 fw-bold text-secondary">12</span>
-            <span className="text-secondary">55</span>
-            <span className="text-secondary pe-5">/mo</span>
+            <span className="text-secondary mt-2">55</span>
+            <span className="text-secondary mt-2">/mo</span>
           </div>
 
           <div className="d-flex justify-content-center  align-items-center ">
@@ -46,8 +46,10 @@ export const Plans = () => {
           </div>
         </div>
 
-        <div className="card text-center shadow p-3 bg-body rounded mx-2 ">
-          <span className="mid btn-primary btn-sm color-git">MOST POPULAR</span>
+        <div className="card text-center shadow p-3 bg-body rounded mx-2  ">
+          <span className="mid btn-primary btn-sm color-git ">
+            MOST POPULAR
+          </span>
 
           <div>
             <h1 className="text-primary fw-bold">Essential</h1>
@@ -57,13 +59,12 @@ export const Plans = () => {
             <p className="">Our top-seller for"the average renter."</p>
           </div>
 
-          <div className=" d-flex justify-content-center ">
-            <span className="text-secondary   ps-5">$</span>
-            <span className="fs-1 fw-bold text-secondary">18</span>
-            <span className="text-secondary">55</span>
-            <span className="text-secondary pe-5">/mo</span>
+          <div className=" d-flex price justify-content-center ">
+            <span className="text-secondary mt-2  ps-5">$</span>
+            <span className="fs-1 fw-bold text-primary">18</span>
+            <span className="text-primary fw-bold mt-2">55</span>
+            <span className="text-secondary mt-2">/mo</span>
           </div>
-
           <div className="d-flex justify-content-center  align-items-center ">
             <div className="line"></div>
             <p className="text-secondary">KEY FEATURES</p>
@@ -94,11 +95,11 @@ export const Plans = () => {
             </p>
           </div>
 
-          <div className=" d-flex justify-content-center ">
-            <span className="text-secondary   ps-5">$</span>
+          <div className=" d-flex price justify-content-center ">
+            <span className="text-secondary mt-2  ps-5">$</span>
             <span className="fs-1 fw-bold text-secondary">33</span>
-            <span className="text-secondary">55</span>
-            <span className="text-secondary pe-5">/mo</span>
+            <span className="text-secondary mt-2">55</span>
+            <span className="text-secondary mt-2">/mo</span>
           </div>
           <div className="d-flex justify-content-center  align-items-center ">
             <div className="line"></div>
