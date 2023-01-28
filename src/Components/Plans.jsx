@@ -188,7 +188,7 @@ export const Plans = () => {
             <img src="./msg.png" className="message-logo me-5" alt="" />
           </div>
         </div>
-        <div className="background d-flex justify-content-between">
+        <div className="background d-flex justify-content-between for-resp">
           <div className="d-flex text-center flex-column align-items-center left-part animate__animated animate__fadeIn">
             <h1 className="fw-bold">
               Customize your

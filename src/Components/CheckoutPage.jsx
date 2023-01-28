@@ -18,8 +18,8 @@ export const CheckoutPage = () => {
           <img src="./msg.png" className="message-logo me-5" alt="" />
         </div>
       </div>
-      <div className="background d-flex justify-content-between   ">
-        <div className="d-flex text-center flex-column align-items-center left-part  ">
+      <div className="background d-flex justify-content-between  for-resp ">
+        <div className="d-flex text-center flex-column align-items-center left-part for-resp ">
           <h1 className="fw-bold">
             Customize your
             <br />

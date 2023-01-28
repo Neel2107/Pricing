@@ -228,3 +228,56 @@ width: 5rem;
 .hideC{
     display: none !important;
 }
+
+@media screen and (max-width:600px)
+ {
+  .restart{
+    display: none;
+  }
+
+  .rev-logo{
+    width: 50%;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .card-width{
+    width: auto;
+    margin-bottom: 2rem;
+  }
+
+
+  .background{
+    
+    background-image: none;
+  }
+
+  .for-resp{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .inputt{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-part{
+    margin-left: 10px;
+  }
+
+  .right-part{
+    max-width: 50%;
+    margin-left: 150px;
+  }
+
+  .cards{
+    max-width: 70%;
+    margin-left: 100px;
+  }
+}
