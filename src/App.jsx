@@ -1,15 +1,20 @@
 import { useState } from 'react'
-import { Navbar } from './Components/Navbar'
+import { CheckoutPage } from './Components/CheckoutPage'
 import { Plans } from './Components/Plans'
+import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-  <Navbar/>
-  <Plans/>
-   
+      <Router>
+            <Routes>
+                <Route path='/' exact element={<Plans/>} />
+                <Route path='plan' element={<CheckoutPage/>} />
+            </Routes>
+      </Router>
+   {/* <CheckoutPage/> */}
     </div>
   )
 }

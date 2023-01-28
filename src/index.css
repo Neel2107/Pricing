@@ -2,6 +2,9 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+#FirstPage{
+    height: 100vh;
+}
 
 .rev-logo {
     height: 50px;
@@ -62,8 +65,7 @@
 }
 
 .card {
-    min-width: 33%;
-    width: 100%;
+    /* min-width: 33%; */
     height: 400px;
 }
 
@@ -86,13 +88,14 @@
 .mid {
     position: absolute;
     top: -1rem;
-    right: 35%;
+    right: 30%;
     margin: auto;
+    
 }
 
 .line {
     height: 1px;
-    width: 100%;
+    width: 50%;
     background-color: rgb(151, 151, 151);
 }
 
@@ -109,7 +112,119 @@
     font-weight: bold;
 }
 
-.price{
-    width:fit-content;
+.price {
+    width: fit-content;
     /* width: 100%; */
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.money {
+    font-size: 60px;
+}
+
+.adjust {
+    font-size: 16px;
+}
+
+
+
+.money-page {
+    max-width: fit-content;
+}
+
+.cards {
+    height: fit-content;
+    width: 25rem;
+}
+
+.line-1 {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(192, 192, 192);
+}
+
+.starts {
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.input-date {
+    border: none;
+}
+
+.input-date:focus{
+    outline: none;
+}
+.deduct{
+    margin-left: 1rem;
+width: 5rem;
+    border: none;
+}
+
+.deduct:focus{
+    outline: none;
+}
+
+.first{
+    border: none;
+    width: 17rem;
+}
+
+.second{
+    border: none;
+    width: 17rem;
+}
+
+
+.background{
+    background-image: url("../public/bg-2.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.left-part{
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+.right-part{
+    /* height: fit-content; */
+    margin-top: 80px;
+    margin-right: 200px;
+}
+
+.inputt{
+    margin-top: 50px;
+}
+
+.right-card{
+    height: 90%;
+}
+
+.card-width{
+    width: 25rem;
+}
+
+.to-center{
+    width: fit-content;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.showC{
+    display: block !important;
+}
+.hideC{
+    display: none !important;
 }
