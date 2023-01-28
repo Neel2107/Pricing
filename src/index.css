@@ -240,6 +240,7 @@ width: 5rem;
   }
 
   .container{
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     
@@ -268,6 +269,7 @@ width: 5rem;
   }
 
   .left-part{
+    margin-top: 2rem;
     margin-left: 10px;
   }
 
@@ -286,6 +288,13 @@ width: 5rem;
     justify-content: center;
     max-width: 90%;
     justify-self:center;
+  }
+  .phone-logo{
+    margin-right: 20px  !important; 
+  }
+
+  .message-logo{
+    margin-right: 20PX !important;
   }
   
 }
