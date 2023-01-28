@@ -278,6 +278,6 @@ width: 5rem;
 
   .cards{
     max-width: 70%;
-    margin-left: 100px;
+    justify-self: center;
   }
 }
